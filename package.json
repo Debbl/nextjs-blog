@@ -6,6 +6,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@bytemd/plugin-gfm": "^1.13.1",
+    "@bytemd/react": "^1.13.1",
+    "bytemd": "^1.13.1",
     "classnames": "^2.3.1",
     "date-fns": "^2.28.0",
     "gray-matter": "^4.0.3",
