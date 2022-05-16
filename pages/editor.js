@@ -3,6 +3,7 @@ import { Editor, Viewer } from '@bytemd/react';
 import gfm from '@bytemd/plugin-gfm';
 import zh_Hans from 'bytemd/locales/zh_Hans.json';
 import EditorPageLayout from '../components/editorPageLayout';
+import { createCommit } from '../utils/github';
 
 const plugins = [
   gfm(),
@@ -17,6 +18,7 @@ const EditorPage = () => {
     console.log('OK');
     console.log(value);
     console.log(token);
+    createCommit('', [{ name: '111', content: '111' }]);
   };
 
   return (

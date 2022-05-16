@@ -8,9 +8,11 @@
   "dependencies": {
     "@bytemd/plugin-gfm": "^1.13.1",
     "@bytemd/react": "^1.13.1",
+    "axios": "^0.26.1",
     "bytemd": "^1.13.1",
     "classnames": "^2.3.1",
     "date-fns": "^2.28.0",
+    "dayjs": "^1.11.2",
     "gray-matter": "^4.0.3",
     "next": "latest",
     "react": "17.0.2",
